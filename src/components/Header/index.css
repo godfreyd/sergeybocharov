@@ -1,0 +1,12 @@
+.Header {
+    display: grid;
+    background-color: #d33a2c;
+    align-items: center;
+    height: 70px;
+}
+.Header-Nav {
+    grid-column: span 2;
+    display: block;
+    position: relative;
+    color: #fff;
+}
