@@ -16,8 +16,8 @@ function App(props) {
       <div className={cnApp(null, [className])}>
         <Header className={cnApp('Header')}/>
         <div className={cnApp('Content')}>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
+          <Routes basename="/">
+            <Route exact path="/" element={<HomePage />} />
             <Route path="projects" element={<ProjectsPage />} />
           </Routes>
         </div>
