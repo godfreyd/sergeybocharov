@@ -1,12 +1,33 @@
 .Header {
-    display: grid;
-    background-color: #d33a2c;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(38, 49, 129, 0.15);;
     align-items: center;
-    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
 }
+.Header-Logo, .Header-Nav, .Header-Links {
+    flex-grow: 1;
+}
+
 .Header-Nav {
-    grid-column: span 2;
-    display: block;
-    position: relative;
+    
+    width: 600px;
     color: #fff;
+}  
+
+.Header-List {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
 }
+
+.Header-ListItem {
+    margin-right: 9px;
+    padding-left: 3px;
+}
+
+.Header-Logo,  .Header-Links {
+    width: 200px;
+}
+
