@@ -1,6 +1,7 @@
 import React from 'react';
 import { cn } from '@bem-react/classname';
-import { Button } from '@lookingschools/ui/Button/desktop/bundle';
+import { Link } from 'react-router-dom';
+// import { Button } from '@lookingschools/ui/Button/desktop/bundle';
 import './index.css';
 
 export const cnHeader = cn('Header');
@@ -13,9 +14,13 @@ export const Header = (props) => {
             <nav className={cnHeader('Nav')}>
                 <ul className={cnHeader('List')}>
                     <li className={cnHeader('ListItem')}>
-                        <Button theme="black" size="m" type="link" url="/">About me</Button></li>
+                        <Link to="/">About me</Link>
+                        {/* <Button theme="black" size="m" type="link" url="/">About me</Button> */}
+                    </li>
                     <li className={cnHeader('ListItem')}>
-                        <Button theme="black" size="m" type="link" url="/projects">Projects</Button></li>
+                        <Link to="/projects">Projects</Link>
+                        {/* <Button theme="black" size="m" type="link" url="/projects">Projects</Button> */}
+                    </li>
                 </ul>
            </nav>
            <div className={cnHeader('Links')}></div>
