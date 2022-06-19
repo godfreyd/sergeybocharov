@@ -9,3 +9,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}

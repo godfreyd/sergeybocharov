@@ -8,7 +8,10 @@ export const Main = (props) => {
     const { children, className } = props;
     return (
         <main className={cnMain(null, [className])}>
-            {children}
+            <section className={cnMain('Container')}>
+             {children}
+            </section>
+           
         </main>
     )
 }

@@ -12,15 +12,21 @@ export const HomePage = (props) => {
     return (<MainLayout>
             <div className={cnHomePage(null, [className])}>
                 <Main>
-                    <Image
-                        className={cnHomePage('UserAvatar')}
-                        src='user.jpg'
-                        alt={`Фото пользователя`}
-                        width={210}
-                        height={210}
+                    
+                        <Image
+                            className={cnHomePage('UserAvatar')}
+                            src='user.jpg'
+                            alt={`Фото пользователя`}
+                            width={210}
+                            height={210}
 
-                    />
-                    Main Page
+                        />
+                        <div>
+                            <header>
+                                <h1>About me</h1>
+                            </header>
+                        </div>
+                   
                 </Main>
             </div>
         </MainLayout>

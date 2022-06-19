@@ -10,7 +10,16 @@ export const ProjectsPage = (props) => {
     const {className} = props;
     return (<MainLayout>
             <div className={cnProjectsPage(null, [className])}>
-                <Main>Project Page</Main>
+                <Main>
+                    <div>
+
+                    </div>
+                    <div>
+                        <h1>
+                            Projects Page
+                        </h1>
+                    </div>
+                </Main>
             </div>
         </MainLayout>
     )
